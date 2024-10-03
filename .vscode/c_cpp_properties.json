@@ -4,14 +4,17 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\MinGW\\include"
+                "C:\\MinGW\\include",
+                "C:\\mingw64\\include\\c++\\14.2.0",
+                "C:/mingw64/include/c++/14.2.0/x86_64-w64-mingw32"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\MinGW\\bin\\g++.exe"
+            "compilerPath": "C:\\mingw64\\bin\\g++.exe",
+            "cStandard": "c17"
         }
     ],
     "version": 4
